@@ -76,9 +76,13 @@ p {
   border-top-left-radius: 5px; border-top-right-radius: 5px;
 }
 
-/* Safari 7.1+ */
+/* Safari 7.1+ History Width*/
 _::-webkit-full-page-media, _:future, :root #history {
-  width: 229px;
+  width: 230px;
+}
+/* Safari 7.1+ Input Width*/
+_::-webkit-full-page-media, _:future, :root input {
+  width: 239px;
 }
 
 #history-value{
