@@ -106,6 +106,9 @@ input {
 @supports (-webkit-touch-callout: none) {
    input {
      width: 224px !important;
+=======
+     width: 224px;
+>>>>>>> parent of 00d6d9c... IOS Safari Browser CSS Anpassung
    }
 }
 
