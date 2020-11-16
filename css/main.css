@@ -76,6 +76,11 @@ p {
   border-top-left-radius: 5px; border-top-right-radius: 5px;
 }
 
+/* Safari 7.1+ */
+_::-webkit-full-page-media, _:future, :root #history {
+  width: 229px;
+}
+
 #history-value{
   overflow-x: hidden;
 }
@@ -91,6 +96,13 @@ input {
   padding-right: 10px;
   border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;
   margin-bottom: 10px;
+}
+
+/* IOS Apple */
+@supports (-webkit-touch-callout: none) {
+   input {
+     width: 224px;
+   }
 }
 
 .input {
@@ -223,23 +235,6 @@ input {
      }
 }
 
-
-@-webkit-
-{
-    #history {
-      width: 230px;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-    }
-
-    input {
-      min-width: 239px;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-    }
-}
-
-
 @-moz-document url-prefix()
 {
     #history {
@@ -257,7 +252,6 @@ input {
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
 {
-
      body{
       -ms-user-select: none;
      }
@@ -366,6 +360,4 @@ input {
      .btnopera:hover {
        background-color: #FE4A4A;
      }
-
-
 }
