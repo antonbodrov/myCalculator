@@ -105,7 +105,7 @@ input {
 /* IOS Apple */
 @supports (-webkit-touch-callout: none) {
    input {
-     width: 227px !important;
+     width: 226px !important;
    }
 }
 
