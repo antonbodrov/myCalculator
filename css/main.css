@@ -78,11 +78,11 @@ p {
 
 /* Safari 7.1+ History Width*/
 _::-webkit-full-page-media, _:future, :root #history {
-  width: 230px;
+  width: 231px;
 }
 /* Safari 7.1+ Input Width*/
 _::-webkit-full-page-media, _:future, :root input {
-  width: 239px;
+  width: 240px;
 }
 
 #history-value{
@@ -105,7 +105,7 @@ input {
 /* IOS Apple */
 @supports (-webkit-touch-callout: none) {
    input {
-     width: 204px;
+     width: 224px !important;
    }
 }
 
