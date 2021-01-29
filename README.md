@@ -1,3 +1,4 @@
-# myCalculator
+# myCalculator App
+created by Anton Bodrov
 
-https://antonbodrov.github.io/myCalculator/
+Link: https://antonbodrov.github.io/myCalculator/
